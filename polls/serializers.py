@@ -9,4 +9,4 @@ class QuestionSerializer(serializers.HyperlinkedModelSerializer):
 class ChoiceSerializer(serializers.HyperlinkedModelSerializer):
     class Meta:
         model = Choice
-        fields = ('id', 'choice_text', 'votes', 'question_id')
+        fields = ('id', 'choice_text', 'votes', 'question')
