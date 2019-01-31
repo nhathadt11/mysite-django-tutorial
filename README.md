@@ -30,6 +30,7 @@ This project is built by working through tutorials from [Django](https://docs.dj
     // Start server
     python3 manage.py runserver
   ```
+  Visit swagger doc at: `http://localhost:8000/swagger`
 
 ## TODO:
 - [ ] Visualize project structure and flow overview
