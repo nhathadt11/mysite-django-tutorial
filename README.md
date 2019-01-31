@@ -21,14 +21,20 @@ This project is built by working through tutorials from [Django](https://docs.dj
 
 ## Getting started
   ```
-    // Create and enter virtualenv
-    pipenv shell
+    // Create virtualenv and install project dependencies
+    $ pipenv install
 
-    // Install project dependency
-    pipenv install
+    // Activate virtualenv
+    $ pipenv shell
+
+    // Run migration
+    $ python manage.py migrate
 
     // Start server
-    python3 manage.py runserver
+    $ python manage.py runserver
+
+    // Exit virtualenv
+    $ exit
   ```
   Visit swagger doc at: `http://localhost:8000/swagger`
 
