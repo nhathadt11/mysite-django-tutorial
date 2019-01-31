@@ -1,9 +1,9 @@
 This project is built by working through tutorials from [Django](https://docs.djangoproject.com/en/2.1/intro/tutorial01/) and [django-rest-framework](https://www.django-rest-framework.org/api-guide/viewsets/#example)
 
-# RESTful Architect
+# RESTful Architecture style with Django + React
 
 ## RESTful Client - written in React
-  REST consumer
+  REST consumer: [mysite-react](https://github.com/nhathadt11/mysite-react)
 
 ## RESTful Server - written in Python Django
   REST provider
@@ -15,14 +15,23 @@ This project is built by working through tutorials from [Django](https://docs.dj
   Django does not come with RESTful support by default. In order to do this, include `django-rest-framework` or `flask` to app dependencies. This project takes `django-rest-framework`.
   
 
-## Prerequisite
+## Prerequisites
+  - Pipenv 2018.11.26
   - Python 3.6.7
-  - Django 2.1.4
 
 ## Getting started
-  `python3 manage.py runserver`
+  ```
+    // Create and enter virtualenv
+    pipenv shell
+
+    // Install project dependency
+    pipenv install
+
+    // Start server
+    python3 manage.py runserver
+  ```
 
 ## TODO:
-- [ ] Project structure and flow overview
-- [ ] React app to consume RESTful data
-- [ ] Use `virtualenv` to scope down dependencies to project
+- [ ] Visualize project structure and flow overview
+- [x] React app to consume RESTful data
+- [x] Use `virtualenv` to make dependencies to project-scope level
