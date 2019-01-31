@@ -40,5 +40,6 @@ This project is built by working through tutorials from [Django](https://docs.dj
 
 ## TODO:
 - [ ] Visualize project structure and flow overview
+- [ ] RESTful Websocket APIs
 - [x] React app to consume RESTful data
 - [x] Use `virtualenv` to make dependencies to project-scope level
