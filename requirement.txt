@@ -28,7 +28,7 @@ django-constance==2.3.1
 django-cors-headers==2.4.0
 django-coverage-plugin==1.6.0
 django-crispy-forms==1.7.2
-django-debug-toolbar==1.10.1
+django-debug-toolbar==1.11.1
 django-discover-runner==1.0
 django-environ==0.4.5
 django-extensions==2.1.3
